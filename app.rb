@@ -8,8 +8,18 @@ get ('/') do
   erb(:input)
 end
 
+get ('/room1') do
+  erb(:room1)
+end
 
-post ('/output') do
-  
-  erb(:output)
+get ('/room2') do
+  erb(:room2)
+end
+
+get ('/room3') do
+  erb(:room3)
+end
+
+get ('/room4') do
+  erb(:room4)
 end

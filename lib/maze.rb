@@ -1,6 +1,9 @@
 class Maze
-  def initialize
-
+  def initialize(input)
+    @input = input
   end
 
+  def room
+
+  end
 end
